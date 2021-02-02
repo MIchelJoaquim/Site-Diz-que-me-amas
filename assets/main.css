@@ -14,12 +14,25 @@
   font-family: "Adelia";
   src: url(fonts/adelia\ 400.ttf);
 }
+@font-face {
+  font-family: "Black-pink";
+  src: url(fonts/Black\ Pink\ Signature\ 400.ttf);
+}
+@font-face {
+  font-family: "Billie";
+  src: url(fonts/BillieAshley\ 400.otf);
+}
 
 * {
   padding: 0;
   margin: 0;
 }
-
+span .bold{
+    font-family: Ageo-bold;
+}
+span .ligth{
+    font-family: Ageo-light;
+}
 #logotipo{
     left: 100px;
     top: 50px;
