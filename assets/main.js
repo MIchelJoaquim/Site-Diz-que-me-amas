@@ -6,6 +6,10 @@
 //     alert("rolou");
 // }
 
+const slide = [
+    {title: "", text: "", img: "", obs: ""}
+]
+
 // document.onscroll = onscroll;
 $(document).ready(function () {
     // alert("pronto")
