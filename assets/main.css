@@ -32,6 +32,16 @@
   margin: 0;
   font-family: Ageo-regular;
 }
+
+body {
+  background-image: url("img/fundo.png");
+  background-color: #b51e63;
+  background-repeat: repeat-y;
+  background-size: 800px;
+  background-position: fixed;
+  background-position-x: center;
+  margin: 0 auto;
+}
 span .bold {
   font-family: Ageo-bold;
 }
@@ -48,7 +58,7 @@ span .ligth {
 
 #container {
   width: 100%;
-  min-height: 100vh;
+  min-height: 100;
 }
 
 .slide {
@@ -67,8 +77,8 @@ span .ligth {
 
 .image-painel img {
   position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+  /* bottom: 0; */
+  transform: translateY(15%);
   width: 100%;
 }
 
@@ -179,21 +189,21 @@ span .ligth {
     height: 50vh;
   }
 
-  .text-painel h2{
+  .text-painel h2 {
     font-size: 8vw;
   }
-  .text-painel .call-word{
+  .text-painel .call-word {
     font-size: 7vw;
   }
 
-  #logotipo{
+  #logotipo {
     position: fixed;
     top: 15px;
     left: 15px;
     width: 70px;
   }
 
-  #whatsapp-icon{
+  #whatsapp-icon {
     right: 15px;
     bottom: 15px;
   }
