@@ -20,7 +20,6 @@ function initAOS() {
 function setCopyRight() {
     const div = document.createElement('div');
 
-    div.className = 'row';
 
     div.innerHTML = `
   <div id="dev-info">
