@@ -36,3 +36,5 @@ function run() {
     initAOS();
     setCopyRight();
 }
+
+run()
