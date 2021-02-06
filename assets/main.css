@@ -251,7 +251,7 @@ span .ligth {
   }
 
   .text-painel div {
-    padding: 25px 40px;
+    padding: 25px 20px;
     padding-top: 10px;
     margin-left: 0;
   }
@@ -260,12 +260,12 @@ span .ligth {
     font-size: 8vw;
   }
   .text-painel .call-word {
-    font-size: 5.5vw;
+    font-size: 4vw;
   }
 
   .obs {
     font-family: Ageo-ligth;
-    font-size: 10pt;
+    font-size: 8pt;
   }
 
   #logotipo {
