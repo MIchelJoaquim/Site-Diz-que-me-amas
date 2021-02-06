@@ -32,7 +32,7 @@ function setCopyRight() {
 }
 
 
-function run() {
+export function run() {
     initAOS();
     setCopyRight();
 }
