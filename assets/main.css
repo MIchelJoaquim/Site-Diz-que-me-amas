@@ -100,7 +100,7 @@ span .ligth {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
-  margin-left: 20px;
+  /* margin-left: 20px; */
   padding: 40px 60px;
 }
 
@@ -248,12 +248,22 @@ span .ligth {
     height: 50vh;
   }
 
+  .text-painel div{
+    padding: 30px 40px;
+    margin-left: 0;
+  }
+
   .text-painel h2 {
     font-size: 8vw;
   }
   .text-painel .call-word {
     font-size: 7vw;
     
+  }
+
+  .obs {
+    font-family: Ageo-ligth;
+    font-size: 10pt;
   }
 
   #logotipo {
