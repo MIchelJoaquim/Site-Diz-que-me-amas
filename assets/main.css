@@ -247,7 +247,7 @@ span .ligth {
     float: left;
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 50vh;
   }
 
   .text-painel div {
@@ -260,7 +260,7 @@ span .ligth {
     font-size: 8vw;
   }
   .text-painel .call-word {
-    font-size: 7vw;
+    font-size: 5.5vw;
   }
 
   .obs {
