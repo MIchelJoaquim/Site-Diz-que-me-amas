@@ -125,8 +125,13 @@ span .ligth {
 
 .obs {
   font-family: Ageo-ligth;
-  font-size: 16pt;
+  font-size: 13pt;
 }
+
+.info{
+  text-align: left;
+}
+
 
 #whatsapp-icon {
   position: fixed;
@@ -204,6 +209,13 @@ span .ligth {
 }
 .text-right{
   text-align: right;
+}
+
+#dev-info{
+  color: #fff;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
 }
 
 
