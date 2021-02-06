@@ -128,10 +128,9 @@ span .ligth {
   font-size: 13pt;
 }
 
-.info{
+.info {
   text-align: left;
 }
-
 
 #whatsapp-icon {
   position: fixed;
@@ -178,12 +177,18 @@ span .ligth {
   line-height: 50px;
   vertical-align: middle;
   background: #d6249f;
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
   position: fixed;
   bottom: 50px;
   right: 90px;
-
 }
 #facebook {
   display: inline-block;
@@ -197,28 +202,25 @@ span .ligth {
   vertical-align: middle;
   background: #3b5998;
   /* background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%); */
-  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
   position: fixed;
   bottom: 50px;
   right: 30px;
-
 }
 
-.text-left{
+.text-left {
   text-align: left;
 }
-.text-right{
+.text-right {
   text-align: right;
 }
 
-#dev-info{
+#dev-info {
   color: #fff;
   position: fixed;
   bottom: 20px;
   right: 30px;
 }
-
-
 
 @media only screen and (max-device-width: 768px) {
   #container {
@@ -248,8 +250,9 @@ span .ligth {
     height: 50vh;
   }
 
-  .text-painel div{
-    padding: 30px 40px;
+  .text-painel div {
+    padding: 25px 40px;
+    padding-top: 10px;
     margin-left: 0;
   }
 
@@ -258,7 +261,6 @@ span .ligth {
   }
   .text-painel .call-word {
     font-size: 7vw;
-    
   }
 
   .obs {
@@ -274,26 +276,54 @@ span .ligth {
   }
 
   #whatsapp-icon {
-    right: 150px;
-    bottom: 20px;
-  }
-
-  #instagram{
+    right: 100px;
     bottom: 30px;
-    bottom: 20px;
+    width: 110px;
+    height: 20px;
   }
 
-  #facebook{
+  #whatsapp-text{
+    line-height: 20px;
+    font-size: 10pt;
+    /* visibility: hidden; */
+  }
+
+  #whatsapp-icon img {
+    width: 20px;
+    float: right;
+  }
+
+  #instagram {
     bottom: 30px;
-    bottom: 20px;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    line-height: 35px;
+    right: 60px;
   }
 
-  .text-left{
+  #facebook {
+    bottom: 30px;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    line-height: 35px;
+    right: 20px;
+  }
+
+  .text-left {
     text-align: center;
   }
 
-  .text-right{
+  .text-right {
     text-align: center;
   }
 
+  #dev-info {
+    color: #fff;
+    position: fixed;
+    bottom: 10px;
+    right: 30px;
+    font-size: 10pt;
+  }
 }
