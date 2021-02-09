@@ -23,7 +23,7 @@ function setCopyRight() {
 
     div.innerHTML = `
   <div id="dev-info">
-            <span class="number">&copy;2021  </span><span>PFC - Desenvolvido por <a href="https://nojoje.com" target="_blank">NoJoJe</a> </span>
+            <span class="number">&copy;2021  </span><span>Tromba - Desenvolvido por <a href="https://nojoje.com" target="_blank">NoJoJe</a> </span>
         </div>
   `;
 
